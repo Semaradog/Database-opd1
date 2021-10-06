@@ -1,6 +1,6 @@
 <?php
 
-    include('core/header.php');
+    include('../../core/header.php');
 
     if (isset($_POST['title']) && $_POST['title'] != "") {
         $title = $con->real_escape_string($_POST['title']);
@@ -39,7 +39,4 @@ Book overview: <input type="text" name="overview" value=""><br><br>
 </form>
 
 
-
-<!-- <?php
-    include('../core/footer.php');
-?> -->
+<a href="../../index.php">Go Back</a>

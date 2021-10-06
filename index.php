@@ -24,6 +24,9 @@
             }
 ?>
 
+<a href="admin/books/addbooks.php">Add a book</a>
+<a href="admin/books/updatebooks.php">Update a book</a>
+<a href="admin/books/deletebooks.php">Delete a book</a>
 
 
 <!-- eerst pagina met alle boeken (LIMIT, OFFSET)
