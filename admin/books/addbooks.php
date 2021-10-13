@@ -39,4 +39,4 @@ Book overview: <input type="text" name="overview" value=""><br><br>
 </form>
 
 
-<a href="../../index.php">Go Back</a>
+<a href="index.php">Go Back</a>
