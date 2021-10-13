@@ -42,7 +42,7 @@
                     <td><?php echo $dimensions; ?></td>
                     <td><?php echo $overview; ?></td>
                     <td><a href="updatebooks.php?uid=<?php echo $id; ?>">EDIT</a></td>
-                    <td><a href="deletebooks?uid=<?php echo $id; ?>">DELETE</a></td>
+                    <td><a href="deletebooks.php?uid=<?php echo $id; ?>">DELETE</a></td>
                     </tr>
                     <?php
                 }

@@ -35,7 +35,7 @@
 
         <h2 style="color: red">Are you sure that you want to delete this book?</h2><?php
 
-        $product_id = $con->real_escape_string($_GET['uid']);
+        $id = $con->real_escape_string($_GET['uid']);
 
         $liqry = $con->prepare("SELECT title,author,isbn13,format,publisher,pages,dimensions,overview FROM books WHERE id = ? LIMIT 1;");
         if($liqry === false) {
