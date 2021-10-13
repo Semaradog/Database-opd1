@@ -13,7 +13,8 @@ if ($con->connect_error) {
     die("Connection failed: " . $conn->connect_error);
   }
 
-define("BASEURL","http://localhost/Year%202/Periode%205/database/opdracht%201/");
+// define("BASEURL","http://localhost/Year%202/Periode%205/database/opdracht%201/");
+define("BASEURL","http://localhost/Year%202/Periode%205/database/Database-opd1/");
 
 
 
